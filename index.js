@@ -1,5 +1,7 @@
+const aoijs = require("aoi.js")
+
 const bot = new aoijs.AoiClient({
-    token: "DISCORD BOT TOKEN",
+    token: "BOT TOKEN",
     prefix: "$getGuildVar[prefix]",
     intents: ["Guilds", "GuildMessages", "MessageContent"],
     events: ["onMessage", "onInteractionCreate"]
