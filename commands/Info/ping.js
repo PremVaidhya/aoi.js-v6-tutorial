@@ -1,4 +1,4 @@
 module.exports = {
    name: "ping",
-   ping: `Websocket Ping: **$pingms**`
+   code: `Websocket Ping: **$pingms**`
 }
